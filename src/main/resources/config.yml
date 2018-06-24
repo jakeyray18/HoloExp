@@ -1,0 +1,53 @@
+##You can add multiple lines to the holo message by using '|' to split the line.
+Holograms:
+  Duration: 50
+  Animals: true
+  Monsters: true
+  Blocks: true
+  Holo_msg: "&b{player}|&eEXP: &5{exp}"
+  Chat_msg: "&cYou got experience!!"
+
+Animals:
+  - CHICKEN
+  - COW
+  - DONKEY
+  - HORSE
+  - IRON_GOLEM
+  - LLAMA
+  - MULE
+  - MUSHROOM_COW
+  - OCELOT
+  - PARROT
+  - PIG
+  - RABBIT
+  - SHEEP
+  - SNOWMAN
+  - SQUID
+  - VILLAGER
+  - WOLF
+
+Monsters:
+  - BAT
+  - BLAZE
+  - CAVE_SPIDER
+  - CREEPER
+  - ELDER_GUARDIAN
+  - ENDER_DRAGON
+  - ENDER_MAN
+  - ENDERMITE
+  - GHAST
+  - GIANT
+  - GUARDIAN
+  - MAGMA_CUBE
+  - PIG_ZOMBIE
+  - POLDER_BEAR
+  - SHULKER
+  - SILVERFISH
+  - SKELETON
+  - SLIME
+  - SPIDER
+  - WITCH
+  - WITHER
+  - WITHER_SKELETON
+  - ZOMBIE
+  - ZOMBIE_VILLAGER

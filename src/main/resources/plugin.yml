@@ -1,0 +1,16 @@
+name: HoloExp
+main: HoloExp.Main
+version: 0.0.1
+author: GungnirIncarnate
+softdepend: [HolographicDisplays]
+
+commands:
+  holoexp:
+    usage: /command
+    description: Holoexp base command
+    aliases: [hxp, holoxp, hexp]
+
+permissions:
+
+  holoexp.reload:
+    description: Allows access to reloading HoloExp config.

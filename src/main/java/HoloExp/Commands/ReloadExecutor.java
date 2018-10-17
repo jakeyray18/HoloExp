@@ -16,7 +16,7 @@ public class ReloadExecutor implements CommandExecutor {
 
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
         if (command.getLabel().equalsIgnoreCase("holoexp")) {
-            if (strings != null) {
+            if (strings.length != 0) {
                 if (strings[0].equalsIgnoreCase("reload")) {
                     if (commandSender.hasPermission("holoexp.reload")) {
                         plugin.reloadConfig();
